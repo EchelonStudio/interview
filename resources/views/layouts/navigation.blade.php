@@ -16,17 +16,17 @@
                         {{ __('Dashboard') }}
                     </x-nav-link>
                 </div>
-                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                <div class=" space-x-8 sm:-my-px sm:ml-10 flex">
                     <x-nav-link :href="route('notes.index')" :active="request()->routeIs('notes.index')">
                         {{ __('Note') }}
                     </x-nav-link>
                 </div>
-                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                <div class=" space-x-8 sm:-my-px sm:ml-10 flex">
                     <x-nav-link :href="route('weather', 'ibadan')" :active="request()->routeIs('weather')">
                         {{ __('Weather') }}
                     </x-nav-link>
                 </div>
-                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                <div class=" space-x-8 sm:-my-px sm:ml-10 flex">
                     <x-nav-link :href="route('user.transfer')" :active="request()->routeIs('user.transfer')">
                         {{ __('Transfer') }}
                     </x-nav-link>
